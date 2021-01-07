@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
+    <testcase classname="Create user and log in on theDemoSite" name="_2" time="0">
+        <skipped><![CDATA[Given I can open the demo site..............................................undefined
+When I add new user to the site <add user>..................................undefined
+Then the site will display new user <result>................................undefined
+]]></skipped>
+    </testcase>
+</testsuite>

@@ -1,0 +1,13 @@
+Feature: Create user and log in on theDemoSite
+
+Background: 
+Given I can open the demo site
+
+Scenario Outline:
+	When I add new user to the site <add user>
+	Then the site will display new user <result>
+	
+ Examples:
+    | USER  | PASSWORD  |
+    | guest | password |
+  
